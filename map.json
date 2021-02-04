@@ -109,7 +109,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/_\/global\/alsacedigitale.github.io\/workadventure-hic2021-dev\/rue-des-projets-2\/map.json#start_left_down"
+                 "value":"\/@\/ad\/ad\/rue-des-projets#start_left_down"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -127,7 +127,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/_\/global\/alsacedigitale.github.io\/workadventure-hic2021-dev\/rue-des-projets-2\/map.json#start_left_up"
+                 "value":"\/@\/ad\/ad\/rue-des-projets#start_left_up"
                 }],
          "type":"tilelayer",
          "visible":true,
