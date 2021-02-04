@@ -91,7 +91,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/_\/global\/alsacedigitale.github.io\/workadventure-hic2021-dev\/bureaux\/map.json#start"
+                 "value":"\/@\/ad\/ad\/bureaux#start"
                 }],
          "type":"tilelayer",
          "visible":true,
