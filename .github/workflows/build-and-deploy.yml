@@ -16,6 +16,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: send message start optimize map
+        uses: appleboy/discord-action@master
+        with:
+          webhook_id: ${{ secrets.WEBHOOK_ID }}
+          webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
+          args: ${{ github.event_name }} event on WORK ADVENTURE MAP PRODUCTION, optimize map START
+          username: Github        
+
       - name: Optimize map
         uses: AlsaceDigitale/map-optimizer-action@master
 
@@ -38,3 +46,11 @@ jobs:
       - name: Bash2
         run: |
           ls -al
+
+      - name: send message end optimize map
+        uses: appleboy/discord-action@master
+        with:
+          webhook_id: ${{ secrets.WEBHOOK_ID }}
+          webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
+          args: ${{ github.event_name }} event on WORK ADVENTURE MAP PRODUCTION, optimize map FINISHED
+          username: Github        
