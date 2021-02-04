@@ -379,7 +379,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/_\/global\/alsacedigitale.github.io\/workadventure-hic2021-dev\/map.json#start_right_down"
+                 "value":"\/@\/ad\/ad\/ad#start_right_down"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -397,7 +397,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/_\/global\/alsacedigitale.github.io\/workadventure-hic2021-dev\/map.json#start_right_up"
+                 "value":"\/@\/ad\/ad\/ad#start_right_up"
                 }],
          "type":"tilelayer",
          "visible":true,

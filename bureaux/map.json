@@ -37,7 +37,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/_\/global\/alsacedigitale.github.io\/workadventure-hic2021-dev\/map.json#start_top"
+                 "value":"\/@\/ad\/ad\/ad#start_top"
                 }],
          "type":"tilelayer",
          "visible":true,
