@@ -379,7 +379,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/ad\/ad\/ad#start_right_down"
+                 "value":"\/@\/ad\/hic2021\/plazza#start_right_down"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -397,7 +397,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/ad\/ad\/ad#start_right_up"
+                 "value":"\/@\/ad\/hic2021\/plazza#start_right_up"
                 }],
          "type":"tilelayer",
          "visible":true,
