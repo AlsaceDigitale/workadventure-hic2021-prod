@@ -39,5 +39,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           message: |
-            **Hello world**
+            **Changes deployed to DEV!**
+
+            Your changes have been successfully deployed to the [[HIC WorkAdventure development server]](https://play.workadventu.re/_/global/alsacedigitale.github.io/workadventure-hic2021-dev/)!
+
+            Test them before merging the pull request to make sure everything works as intended.
           allow-repeats: true
