@@ -27,14 +27,3 @@ jobs:
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: . # The folder the action should deploy.
 
-      - name: Bash2
-        run: |
-          ls -al
-
-      - name: send message end optimize map
-        uses: appleboy/discord-action@master
-        with:
-          webhook_id: ${{ secrets.WEBHOOK_ID }}
-          webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
-          args: ${{ github.event_name }} event on WORK ADVENTURE MAP PRODUCTION, optimize map FINISHED
-          username: Github        
