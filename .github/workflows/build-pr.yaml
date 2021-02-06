@@ -1,0 +1,40 @@
+name: Build pull request
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Optimize map
+        uses: AlsaceDigitale/map-optimizer-action@master
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          REPOSITORY_NAME: AlsaceDigitale/workadventure-hic2021-dev
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: . # The folder the action should deploy.
+
+      - name: Bash2
+        run: |
+          ls -al
+
+      - name: send message end optimize map
+        uses: appleboy/discord-action@master
+        with:
+          webhook_id: ${{ secrets.WEBHOOK_ID }}
+          webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
+          args: ${{ github.event_name }} event on WORK ADVENTURE MAP PRODUCTION, optimize map FINISHED
+          username: Github        
